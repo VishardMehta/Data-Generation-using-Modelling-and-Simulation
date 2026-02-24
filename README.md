@@ -21,6 +21,8 @@ The objective is to:
 
 ## Simulation Model – Bank Queuing System (SimPy)
 
+<img src="assets/queue_diagram.png" width="700"/>
+
 SimPy is a process-based discrete-event simulation framework based on Python. It is listed on the [Wikipedia List of Computer Simulation Software](https://en.wikipedia.org/wiki/List_of_computer_simulation_software).
 
 The simulation models a bank with multiple counters serving arriving customers:
@@ -105,6 +107,8 @@ This will:
 | Decision Tree | 0.92 | 0.8615 | 0.8889 | 0.875 | 0.9116 | 0.003 | 6 |
 | Logistic Regression | 0.91 | 0.8 | 0.9524 | 0.8696 | 0.9803 | 0.006 | 7 |
 | Naive Bayes | 0.9 | 0.8644 | 0.8095 | 0.8361 | 0.9703 | 0.003 | 8 |
+
+<img src="assets/model_comparison.png" width="700"/>
 
 ---
 
