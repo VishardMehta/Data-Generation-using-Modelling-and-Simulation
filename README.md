@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates data generation using modeling and simulation to create a synthetic dataset for machine learning.
 
@@ -19,7 +19,7 @@ The objective is to:
 
 ---
 
-## 🧠 Simulation Model – Bank Queuing System (SimPy)
+## Simulation Model – Bank Queuing System (SimPy)
 
 SimPy is a process-based discrete-event simulation framework based on Python. It is listed on the [Wikipedia List of Computer Simulation Software](https://en.wikipedia.org/wiki/List_of_computer_simulation_software).
 
@@ -40,7 +40,7 @@ The simulation models a bank with multiple counters serving arriving customers:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Data-Generation-using-Modelling-and-Simulation/
@@ -65,7 +65,7 @@ Data-Generation-using-Modelling-and-Simulation/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Install required packages:
 
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 From inside the `src` folder:
 
@@ -93,11 +93,11 @@ This will:
 
 ---
 
-## 📊 Model Comparison Results
+## Model Comparison Results
 
 | Model | Accuracy | Precision | Recall | F1_Score | ROC_AUC | Train_Time_sec | Rank |
 |-----------|----------|-----------|--------|----------|----------|----------------|------|
-| Random Forest ⭐ | 0.95 | 0.9206 | 0.9206 | 0.9206 | 0.9904 | 0.153 | 1 |
+| Random Forest | 0.95 | 0.9206 | 0.9206 | 0.9206 | 0.9904 | 0.153 | 1 |
 | Gradient Boosting | 0.95 | 0.9206 | 0.9206 | 0.9206 | 0.9911 | 0.184 | 2 |
 | SVM (RBF) | 0.93 | 0.8451 | 0.9524 | 0.8955 | 0.9903 | 0.041 | 3 |
 | AdaBoost | 0.925 | 0.8636 | 0.9048 | 0.8837 | 0.9907 | 0.161 | 4 |
@@ -108,7 +108,7 @@ This will:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 Each simulation generates the following features:
 
@@ -127,7 +127,7 @@ For model training, only initial parameters (arrival_rate, service_rate, num_cou
 
 ---
 
-## 🤖 Machine Learning Models Used
+## Machine Learning Models Used
 
 The following classification models were evaluated:
 
@@ -142,7 +142,7 @@ The following classification models were evaluated:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 Models were evaluated using:
 
@@ -156,7 +156,7 @@ Models are ranked using integer ranking based on F1 Score.
 
 ---
 
-## 📁 Output Files
+## Output Files
 
 After execution, the following files are generated:
 
@@ -165,7 +165,7 @@ After execution, the following files are generated:
 
 ---
 
-## 🏆 Conclusion
+## Conclusion
 
 This project demonstrates how simulation-based synthetic data can be used to train and compare multiple machine learning models.  
 
@@ -173,7 +173,7 @@ The best model is selected based on F1 Score, ensuring balanced classification p
 
 ---
 
-## 📌 Author
+## Author
 
 - Vishard Mehta
 - 102317240
